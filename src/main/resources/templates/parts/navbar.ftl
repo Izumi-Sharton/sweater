@@ -20,7 +20,7 @@
             </li>
             </#if>
         </ul>
-        <div class="navbar-text mr-3">${name}</div>
+        <div class="navbar-text mr-2">${name}</div>
         <#if Session.SPRING_SECURITY_CONTEXT??>
         <div>
             <@l.logout />
